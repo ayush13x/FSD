@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feast mode</title>
+    <style>
+        body{
+            background-color: rgb(0, 0, 0);
+        }
+        .ul{
+            list-style-type: none;
+        }
+        a{
+            font-size: 32px;
+            background-color: rgb(0, 0, 0);
+            padding: 8px;
+            text-decoration: none;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            flex-basis: 0px;
+            flex-wrap: wrap;
+            flex-shrink: 3;
+            
+        }
+        .nav ul{
+            display: flex;
+            flex-direction: row;
+         
+        }
+        .container #bgimg{
+            padding-right: 24px;
+            opacity: 0.3;
+            
+        }
+        .nav{
+            height: 80px;
+            width: 1841px;
+            background: rgb(0, 0, 0);
+        }
+        .nav #about{
+            margin-top: 9px;
+            margin-left: 1400px;
+        }
+        .nav #contact{
+            margin-left: 25px;
+            margin-top: 8px;
+            margin-right: 8px;
+            background-color: black;
+        }
+        .nav #btn{
+            margin-top: 15px;
+            margin-left: 12px;
+            color: black;0
+         
+
+        }
+        .nav #logo{
+            background:black;
+        }
+        .recipe{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content:space-around;
+            flex-direction: row;
+            animation:tasty 10s infinite;
+            
+            
+        }
+        @keyframetasty {
+            from{left: 0px; }
+            to{left: 1500px;}
+            
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <ul>
+            <div id="logo"><img src="fsd/feast.png" alt="loggo" height="55px" width="55px" ></div>
+           <div id="about"><a href="#" >about</a></div> 
+           <div id="contact"> <a href="#">contact us</a></div>
+           <div id="btn"> <button>LOGIN</button></div>
+            </ul>
+    </div>
+    <div id="bgimg"> <img src="fsd/pasta.jpg" alt="it is a pasta plate" height="300px" width="1888px"></div>
+    
+
+</div>
+<div class="recipe">
+    <div id="pasta"> <img src="fsd/pasta01.jpg" alt=""></div>
+    <div id="chole"> <img src="fsd/chole2.jpg" alt=""></div>
+    <div id="pizza"><img src="fsd/pizza.jpg" alt=""></div>
+</div>
+
+    
+</body>
+</html>
